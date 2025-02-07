@@ -7,15 +7,44 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+  
 <div>
 <form >
- AD: <br>
-  <input type="text" name="name" placeholder="Adinizi daxil edin"> <br><br>
- Soyad: <br>
-  <input type="text" name="surname" placeholder="Soyadinizi daxil edin" readonly>
+ <!-- AD: <br> -->
+  <label for="mameINPUT">
+    AD: 
+    <input type="text" name="name" id="mameINPUT" placeholder="Adinizi daxil edin" required> 
+    <!-- required teleb edirki bos gonderme  -->
+  </label>
+<label for="#surnameINPUT">
+ Soyad: 
+  <input type="text" name="surname" id="surnameINPUT" placeholder="Soyadinizi daxil edin" >
+</label>
+<label for="#emailINPUT">
+  E-mail:
+  <input type="email" id="emailINPUT" placeholder="email qeyd et">
+</label>
+<label for="#passwordINPUT">
+  Password:
+  <input type="password" id="passwordINPUT" placeholder="password qeyd et">
+</label>
+<label for="#dateINPUT">
+  Date:
+  <input type="date" id="dateINPUT">
 
+</label>
+<label for="#fileINPUT">
+  File:
+  <input type="file" placeholder="fayli yukle" id="fileINPUT" >
 
+</label>
+<label for="#telINPUT">
+  Telefon:
+  <input type="tel" name="" id="telINPUT" placeholder="telefon nomreni yaz">
+</label>
+<!-- <input type="submit" value="Gonder" >refresh verir -->
+<!-- <button type="submit">Gonder</button>eger type button versek sehifeye refresh vermiyecek -->
+ <input type="submit" value="Gonder">
 </form>
 
 

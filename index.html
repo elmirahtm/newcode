@@ -1,94 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-  
-<div>
-<form >
-<fieldset>
-  <legend>Qeydiyyat formu</legend>
-   <!-- AD: <br> -->
-   <label for="mameINPUT">
-    AD: 
-    <input type="text" name="name" id="mameINPUT" placeholder="Adinizi daxil edin" required> 
-    <!-- required teleb edirki bos gonderme  -->
-  </label>
-<label for="#surnameINPUT">
- Soyad: 
-  <input type="text" name="surname" id="surnameINPUT" placeholder="Soyadinizi daxil edin" >
-</label>
-<label for="#emailINPUT">
-  E-mail:
-  <input type="email" id="emailINPUT" placeholder="email qeyd et">
-</label>
-<label for="#passwordINPUT">
-  Password:
-  <input type="password" id="passwordINPUT" placeholder="password qeyd et">
-</label>
-<label for="#dateINPUT">
-  Date:
-  <input type="date" id="dateINPUT">
 
-</label>
-<label for="#fileINPUT">
-  File:
-  <input type="file" placeholder="fayli yukle" id="fileINPUT" >
+  <div>
+    <form>
+      <fieldset>
+        <legend>Qeydiyyat formu</legend>
+        <!-- AD: <br> -->
+        <label for="mameINPUT">
+          AD:
+          <input type="text" name="name" id="mameINPUT" placeholder="Adinizi daxil edin" required>
+          <!-- required teleb edirki bos gonderme  -->
+        </label>
+        <label for="#surnameINPUT">
+          Soyad:
+          <input type="text" name="surname" id="surnameINPUT" placeholder="Soyadinizi daxil edin">
+        </label>
+        <label for="#emailINPUT">
+          E-mail:
+          <input type="email" id="emailINPUT" placeholder="email qeyd et">
+        </label>
+        <label for="#passwordINPUT">
+          Password:
+          <input type="password" id="passwordINPUT" placeholder="password qeyd et">
+        </label>
+        <label for="#dateINPUT">
+          Date:
+          <input type="date" id="dateINPUT">
 
-</label>
-<label for="#telINPUT">
-  Telefon:
-  <input type="tel" name="" id="telINPUT" placeholder="telefon nomreni yaz">
-</label>
-<label for="#colorINPUT">
-Color:
-  <input type="color" id="colorINPUT">
-</label>
-<!-- ayri ayri yaza bilerdim bir labelde yazdim amma -->
-<label for="#radioINPUT">
-  Radio: <br>
-  kisi:<input type="radio" id="radioINPUT">
-  qadin: <input type="radio" name="name" id="radioINPUT">
-</label>
-<label for="#checkboxINPUT">
-Checkbox: <br> 
-yemek1<input type="checkbox" id="checkboxINPUT"><br>
-yemek2<input type="checkbox" id="checkboxINPUT"><br>
-yemek3<input type="checkbox" id="checkboxINPUT">
+        </label>
+        <label for="#fileINPUT">
+          File:
+          <input type="file" placeholder="fayli yukle" id="fileINPUT">
 
-</label>
-<textarea name="description" id="desc" cols="20" rows="10"></textarea>
-<br><br>
-<select name="seherler" id="seher" >
-<optgroup label="yaxinseher">
-  <option value="0">Baki</option>
-<option value="1">Berde</option>
-<option value="2">Füzuli</option>
-<option value="3">Gence</option>
-</optgroup>
-<optgroup label="uzaqseher">
-  <option value="0">Sumqatiy</option>
-<option value="1">Samaxi</option>
-<option value="2">Lenkeran</option>
-<option value="3">Qebele</option>
-</optgroup>
-</select>
+        </label>
+        <label for="#telINPUT">
+          Telefon:
+          <input type="tel" name="" id="telINPUT" placeholder="telefon nomreni yaz">
+        </label>
+        <label for="#colorINPUT">
+          Color:
+          <input type="color" id="colorINPUT">
+        </label>
+        <!-- ayri ayri yaza bilerdim bir labelde yazdim amma -->
+        <label for="#radioINPUT">
+          Radio: <br>
+          kisi:<input type="radio" id="radioINPUT">
+          qadin: <input type="radio" name="name" id="radioINPUT">
+        </label>
+        <label for="#checkboxINPUT">
+          Checkbox: <br>
+          yemek1<input type="checkbox" id="checkboxINPUT"><br>
+          yemek2<input type="checkbox" id="checkboxINPUT"><br>
+          yemek3<input type="checkbox" id="checkboxINPUT">
 
-<!-- <input type="submit" value="Gonder" >refresh verir -->
-<!-- <button type="submit">Gonder</button>eger type button versek sehifeye refresh vermiyecek -->
-<br><br> 
-<button type="reset">Sifirla</button>
-<br><br>
-<input type="submit" value="Gonder">
-</fieldset>
-</form>
+        </label>
+        <textarea name="description" id="desc" cols="20" rows="10"></textarea>
+        <br><br>
+        <select name="seherler" id="seher">
+          <optgroup label="yaxinseher">
+            <option value="0">Baki</option>
+            <option value="1">Berde</option>
+            <option value="2">Füzuli</option>
+            <option value="3">Gence</option>
+          </optgroup>
+          <optgroup label="uzaqseher">
+            <option value="0">Sumqatiy</option>
+            <option value="1">Samaxi</option>
+            <option value="2">Lenkeran</option>
+            <option value="3">Qebele</option>
+          </optgroup>
+        </select>
+
+        <!-- <input type="submit" value="Gonder" >refresh verir -->
+        <!-- <button type="submit">Gonder</button>eger type button versek sehifeye refresh vermiyecek -->
+        <br><br>
+        <button type="reset">Sifirla</button>
+        <br><br>
+        <input type="submit" value="Gonder">
+      </fieldset>
+    </form>
 
 
-</div>
-    
+  </div>
+
 </body>
+
 </html>
